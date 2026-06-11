@@ -1,0 +1,40 @@
+header {
+    background-color: #0000A0;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+}
+
+.tabs {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs li {
+    display: inline-block;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.tabs li button {
+    color: white;
+    background-color: #0000A0;
+    border-color: #0000A0;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tabs li button:hover {
+    color: #0000A0;
+    background-color: white;
+}
