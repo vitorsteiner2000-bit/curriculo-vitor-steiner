@@ -14,36 +14,51 @@
         
         <!--Menu-->
         <ul class="tabs">
-            <li><button id="perfil-tab">Perfil</button></li>
-            <li><button id="formação-tab">Formação</button></li>
-            <li><button id="habilidades-tab">Habilidades</button></li>
-            <li><button id="projetos-tab">Projetos</button></li>
-            <li><button id="contato-tab">Contato</button></li>
+            <li><button id="padrão" class="tab" onclick="openTab(event, 'perfil')">Perfil</button></li>
+            <li><button class="tab" onclick="openTab(event, 'formação')">Formação</button></li>
+            <li><button class="tab" onclick="openTab(event, 'experiência')">Experiência</button></li>
+            <li><button class="tab" onclick="openTab(event, 'habilidades')">Habilidades</button></li>
+            <li><button class="tab" onclick="openTab(event, 'contatos')">Contatos</button></li>
         </ul>
 
         <!--Perfil-->
-        <div id="perfil" class="showing">
-            <h2></h2>
+        <div id="perfil" class="content">
+            <h2>Perfil Profissional</h2>
         </div>
 
         <!--Formação-->
-        <div id="formação" class="not-showing">
-            <h2></h2>
+        <div id="formação" class="content">
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li>Atualmente cursando Ciências da Computação.</li>
+                <li><a href="https://www.cursoemvideo.com/">Curso extracurricular de Python</a></li>
+            </ul>
+        </div>
+
+        <!--Experiência-->
+        <div id="experiência" class="content">
+            <h2>Experiência</h2>
+            <p id="aviso"><img src="imagens/patrick.jpg"><br>Nenhuma experiência, por enquanto</p>
         </div>
 
         <!--Habilidades-->
-        <div id="habilidades" class="not-showing">
-            <h2></h2>
-        </div>
-
-        <!--Projetos-->
-        <div id="projetos" class="not-showing">
-            <h2></h2>
+        <div id="habilidades" class="content">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
         </div>
 
         <!--Contato-->
-        <div id="contato" class="not-showing">
-            <h2></h2>
+        <div id="contatos" class="content">
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="https://www.github.com/vitorsteiner2000-bit/">GitHub</a></li>
+                <li><a href="mailto:vitorsteiner2000@gmail.com">E-mail</a></li>
+            </ul>
         </div>
 
         <script src="local.js"></script>

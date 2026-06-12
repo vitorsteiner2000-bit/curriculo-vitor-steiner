@@ -6,6 +6,16 @@ header {
     padding-top: 50px;
 }
 
+.content img {
+    max-width: 150px;
+    margin: auto;
+    display: block;
+}
+
+#aviso {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Times New Roman';
 }
