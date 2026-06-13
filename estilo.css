@@ -4,20 +4,22 @@ header {
     color: white;
     padding-bottom: 50px;
     padding-top: 50px;
-}
-
-.content img {
-    max-width: 150px;
-    margin: auto;
-    display: block;
-}
-
-#aviso {
-    text-align: center;
-}
-
-h1 {
     font-family: 'Times New Roman';
+}
+
+div h1 {
+    color: #0000A0;
+    font-family: 'Times New Roman';
+}
+
+div p {
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+ul li{
+    font-size: 12pt;
 }
 
 .tabs {
